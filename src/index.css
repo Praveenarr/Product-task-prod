@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.form {
+  margin: 0 auto;
+  padding-top: 7px;
+}
+.form-group {
+  padding: 4px;
+}
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  cursor: pointer; /* Change cursor to pointer for cards */
+}
+
+.card-img-top {
+  height: 200px; /* Set a fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.highlight {
+  background-color: yellow; /* Change this to your desired highlight color */
+  font-weight: bold; /* Optional: make highlighted text bold */
+}
+.filled-star {
+  color: gold; /* or any color you want for filled stars */
+}
+
+.empty-star {
+  color: lightgray; /* or any color you want for empty stars */
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border: none !important;
+}
+/* Custom styles for Enter_Form component */
+.highlight {
+  background-color: yellow;
+}
+
+.card {
+  transition: transform 0.2s; /* Scale effect */
+  border: 1px solid #80808026 !important;
+}
+
+.card:hover {
+  transform: scale(1.05) !important; /* Scale on hover */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem; /* Adjust navbar brand size */
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+.img {
+  margin-top: 22px;
+}
+.truncated-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  line-height: 1.5em; /* Line height of your choice */
+  max-height: 4.5em; /* Height = 3 lines * line-height */
+}
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: var(--bs-card-title-color);
+  font-weight: bold;
+}
+
+input.form-control.me-2 {
+  padding: 0px 49px 0px 7px !important
+  ;
+}
+.collapse:not(.show) {
+  display: block !important;
+}
+.select-category {
+  padding: 0px 41px 0px 12px;
+  width: 138% !important;
+}
+
+.navbar {
+  box-shadow: 0px 20px 20px -20px rgb(193 200 213);
+  width: 98%;
+  margin: 0 auto;
+  padding: 11px 10px 11px 10px !important;
+  margin-top: -1px;
+}
